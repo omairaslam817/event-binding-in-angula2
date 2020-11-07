@@ -13,7 +13,7 @@ device: string;
 this.msg="products added in cart";
   }
   onInputClick(event:any){
-console.log(event.target.value)
+console.log(event.target.value);
   }
   getshop(event:any){
 this.device= event.target.value +' added in cart';
