@@ -18,4 +18,7 @@ console.log(event.target.value)
   getshop(event:any){
 this.device= event.target.value +' added in cart';
   }
+  getinputInfo(inputInfo){
+    console.log(inputInfo.value)
+  }
 }
